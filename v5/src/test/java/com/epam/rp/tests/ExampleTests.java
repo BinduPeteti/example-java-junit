@@ -12,9 +12,13 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Slf4j
 public class ExampleTests {
+
+    public static Logger log = LoggerFactory.getLogger(ExampleTests.class);
 
     @BeforeAll
     static void setup() {

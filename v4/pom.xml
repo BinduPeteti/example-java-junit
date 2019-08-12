@@ -14,9 +14,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.epam.reportportal</groupId>
+            <groupId>com.github.reportportal</groupId>
             <artifactId>agent-java-junit</artifactId>
-            <version>4.1.0</version>
+            <version>5.0.0-BETA-2</version>
         </dependency>
     </dependencies>
 
@@ -70,7 +70,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
                 <configuration>
-                    <argLine>-javaagent:${com.nordstrom.tools:junit-foundation:jar}</argLine>
+                    <argLine>-javaagent:${user.home}/.m2/repository/com/nordstrom/tools/junit-foundation/9.4.3/junit-foundation-9.4.3.jar</argLine>
                 </configuration>
             </plugin>
         </plugins>

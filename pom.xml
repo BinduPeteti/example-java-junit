@@ -41,9 +41,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.epam.reportportal</groupId>
+            <groupId>com.github.reportportal</groupId>
             <artifactId>logger-java-log4j</artifactId>
-            <version>4.0.1</version>
+            <version>a5f6527</version>
         </dependency>
 
         <dependency>

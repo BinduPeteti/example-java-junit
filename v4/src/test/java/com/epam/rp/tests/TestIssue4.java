@@ -1,7 +1,9 @@
 package com.epam.rp.tests;
 
+import com.epam.reportportal.junit.ReportPortalListener;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.JUnitCore;
 
 public class TestIssue4 {
 
